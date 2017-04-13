@@ -1,0 +1,206 @@
+
+body    {
+        background-image:url(bi.png);
+        }
+
+.pages  {
+        padding-left:50px;
+        color:white;
+        }
+        
+.pt     {
+        padding-left:100px;
+        color: white;
+        }
+     
+.wy     {
+        font-family: arial;
+        font-size: 20px;
+        }
+
+.sp     {
+        font-family: arial;
+        font-size: 30px;
+        color:red;
+        }
+        
+.intro  {
+        font-family: arial;
+        font-size: 25px;
+        }
+        
+.list   {
+        color:red;
+        font-family: arial;
+        font-size: 20px;
+        }
+        
+.listh  {
+        color:white;
+        }
+        
+.timeswon {
+          font-family: monospace;
+          }
+
+.member   {
+           color: red;
+          }
+          
+.photoChoice {
+              padding-left: 100px;
+             }
+             
+.welcomeName {
+             color:red;
+             }
+             
+.tm         {
+            text-align: center;
+            }
+
+
+
+#afc        {
+            color:black;
+            }
+
+#arsenal    {
+            text-align: center;
+            background-color: rgb(200,20,0);
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: auto;
+            margin-bottom: auto;
+            }
+
+#team       {
+            margin:auto;
+            }
+ 
+#header     {
+            background-color:black;
+            color:white;
+            text-align:center;
+            padding:5px;
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: auto;
+            }
+            
+#names      {
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: auto;
+            line-height:30px;
+            background-color:grey;
+            background-color: grey;
+            float:left;
+            padding:5px;	      
+            }
+            
+#photo      {
+            background-color: white;
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: auto;
+            float:left;
+            padding:10px;	 	 
+            }
+
+#playerInfo {
+            background-color:white;
+            color:black;
+            clear:both;
+            text-align:center;
+            padding:5px;
+            }
+   
+#home       {
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: auto;
+            line-height:30px;
+            color: red;
+            padding:5px;	      
+            }
+
+#fun        {
+            color:white;
+            }
+ 
+#yo         {
+            background-color: black;
+            height: 250px;
+            }
+ 
+#welcomeImage {
+              padding-left: 300px;
+              height: 300px;
+              width: 1200px;
+              }
+              
+#sb          {
+             color: white;
+             padding-left: 350px;
+             }
+
+#invi        {
+             background-color: red;
+             width: 1000px;
+             margin-right: auto;
+             margin-left: auto;
+             margin-top: auto;
+             margin-bottom: auto;
+            }
+             
+#moveUp     {
+             padding-left: 50px;
+             padding-top: 100px;
+             margin-right: auto;
+             margin-left: auto;
+             margin-top: auto;
+             margin-bottom: auto;
+            }
+
+#youCan     {
+            color:red;
+            }
+
+#welcome    {
+            color:red;
+            }
+
+#wenger     {
+            margin: auto;
+            width:auto;
+            }
+
+#left       {
+            background-color:white;
+            width:1250px;
+            }
+
+#right      {
+            background-color:blue;
+            width:600px;
+            text-align: center;
+            }
+
+#only       {
+            padding-top: 20px;
+            }
+
+#fq         {
+            padding-left: 10px;
+            }
+
+#pick       {
+            color: red;
+            font-size: 35px;
+            }
+            
+
+
+
+

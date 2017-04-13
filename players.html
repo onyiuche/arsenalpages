@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Players</title>
+     <meta charset= "UTF-8"/>
+    <link rel= "stylesheet" type= "text/css" href= "Arsenal.css"/>
+</head>
+
+<body>
+   
+  <div id = 'arsenal'>
+        <img src='images/arsenal.png' alt = 'arsenal' height = '100' width = '100'>
+            <h1 id= 'afc' >ARSENAL FOOTBALL CLUB</h1>
+            
+    <table>
+        <tr>
+            <td>
+                <a href = 'index.html'><h2 class='pages'>HOME</h2></a>
+            </td>
+            <td>
+                <a href = '2.html'><h2 class='pages'>PLAYERS</h2></a>
+            </td>
+            <td>
+                <a href = '3.html'><h2 class='pages'>HONOURS</h2></a>
+            </td>
+            <td>
+                <a href = '4.html'><h2 class='pages'>EXTRAS</h2></a>
+            </td>
+        </tr>
+    </table>
+  </div>
+        
+         
+        
+   
+   <div id="header">
+    <h1 class = 'pt'>PLAYERS</h1>
+   </div>
+   
+<br/> <br/> <br/> <br/> <br/>
+
+    <div id="names">
+        <h2>First Team Squad (Kit Number)</h2>
+    
+    <form>
+        
+        <input type="radio"
+               name="rank"
+               checked="checked"
+               onchange="changePic1('wojo')" /> Wojciech Szczesny (1) <br />
+        <input type="radio"
+               name="rank"
+               onchange="changePic2('per')" /> Per Mertesacker (4) <br />
+        <input type="radio"
+               name="rank"
+               onchange="changePic3('kosh')" /> Laurent Koscielny (6) <br />
+        <input type="radio"
+               name="rank"
+               onchange="changePic4('gibbo')" /> Kieran Gibbs (3) <br />
+        <input type="radio"
+               name="rank"
+               onchange="changePic5('calc')" /> Calum Chambers (21) <br />
+        <input type="radio"
+               name="rank"
+               onchange="changePic6('miki')" /> Mikel Arteta (8) <br />
+        <input type="radio"
+               name="rank"
+               onchange="changePic7('theo')" /> Theo Walcott (14) <br />
+        <input type="radio"
+               name="rank"
+               onchange="changePic8('chambo')" /> Alex Oxlade-Chamberlain (15) <br />
+        <input type="radio"
+               name="rank"
+               onchange="changePic9('gigi')" /> Olivier Giroud (12) <br />
+        <input type="radio"
+               name="rank"
+               onchange="changePic10('welbz')" /> Danny Welbeck (23) <br />
+        <input type="radio"
+               name="rank"
+               onchange="changePic11('sancho')" /> Alexis Sanchez (17) <br />
+        <input type="radio"
+               name="rank"
+               onchange="changePic12('santi')" /> Santi Carzola (19) <br />
+        <input type="radio"
+               name="rank"
+               onchange="changePic13('oz')" /> Mesut Ozil (11) <br />
+        <input type="radio"
+               name="rank"
+               onchange="changePic14('jacky')" /> Jack Wilshere (10) <br />
+        <input type="radio"
+               name="rank"
+               onchange="changePic15('rambo')" /> Aaron Ramsey (16) <br />
+        <input type="radio"
+               name="rank"
+               onchange="changePic16('poldi')" /> Lukas Podolski (9) <br />
+        <input type="radio"
+               name="rank"
+               onchange="changePic17('diaby')" /> Abou Diaby (24) <br />
+       <input type="radio"
+               name="rank"
+               onchange="changePic18('debuchy')" /> Mathieu Debuchy (2) <br />
+       <input type="radio"
+               name="rank"
+               onchange="changePic19('sanogo')" /> Yaya Sanogo (22) <br />
+       <input type="radio"
+               name="rank"
+               onchange="changePic20('rosicky');" /> Tomas Rosicky (7) <br />
+                
+        </form>
+
+    </div>
+
+        <div id="photo">
+            <h2 id='ph'>Player Photo</h2>
+                <img id='pic' src = 'images/wojo.jpg' alt='select a player to view photo and info'/>
+        
+        <h3>Player Info</h3>
+            <p>
+                <b> Born: </b> <span id='born'>April 18, 1990</span>  &nbsp; &nbsp; &nbsp; &nbsp; <b>Position: </b> <span id ='position'>Goalkeeper</span>  &nbsp; &nbsp; &nbsp; &nbsp; <b>Country: </b> <span id='country'>Poland</span>  &nbsp; &nbsp; &nbsp; &nbsp; <b>Previous Club: </b> <span id='previous'>Brentford </span>
+            </p>
+    </div>
+
+ 
+
+   
+   
+  
+  
+                                 <script type= 'text/javascript'>
+
+                                    function changePic1(wojo) {
+                                        pic.src = 'images/wojo.jpg';
+                                        born.innerHTML = "April 18, 1990";
+                                        position.innerHTML = "Goalkeeper";
+                                        country.innerHTML = "Poland";
+                                        previous.innerHTML = "Brentford";
+                                    }
+                        
+                                    function changePic2(per) {
+                                        pic.src = 'images/per.jpg';
+                                        born.innerHTML = "September 29, 1984";
+                                        position.innerHTML = "Defender";
+                                        country.innerHTML = "Germany";
+                                        previous.innerHTML = "Werder Bremen";
+                                    }
+                                    
+                                    function changePic3(kosh) {
+                                        pic.src = 'images/kosh.jpg';
+                                        born.innerHTML = "September 10, 1985";
+                                        position.innerHTML = "Defender";
+                                        country.innerHTML = "France";
+                                        previous.innerHTML = "En Avant";
+                                    }
+                                    function changePic4(gibbo) {
+                                        pic.src = 'images/gibbo.jpg';
+                                        born.innerHTML = "September 26, 1989";
+                                        position.innerHTML = "Defender";
+                                        country.innerHTML = "England";
+                                        previous.innerHTML = "Norwich City";
+                                    }
+                                    function changePic5(calc) {
+                                        pic.src = 'images/calc.jpg';
+                                        born.innerHTML = "January 20, 1995";
+                                        position.innerHTML = "Defender";
+                                        country.innerHTML = "England";
+                                        previous.innerHTML = "Southampton";
+                                    }
+                                    function changePic6(miki) {
+                                        pic.src = 'images/miki.jpg';
+                                        born.innerHTML = "March 26, 1982";
+                                        position.innerHTML = "Midfielder";
+                                        country.innerHTML = "Spain";
+                                        previous.innerHTML = "Everton";
+                                    }
+                                    function changePic7(theo) {
+                                        pic.src = 'images/theo.jpg';
+                                        born.innerHTML = "March 16, 1989";
+                                        position.innerHTML = "Forward";
+                                        country.innerHTML = "England";
+                                        previous.innerHTML = "Southampton";
+                                    }
+                                    function changePic8(chambo) {
+                                        pic.src = 'images/chambo.jpg';
+                                        born.innerHTML = "August 15, 1993";
+                                        position.innerHTML = "Midfielder";
+                                        country.innerHTML = "England";
+                                        previous.innerHTML = "Southampton";
+                                    }
+                                    function changePic9(gigi) {
+                                        pic.src = 'images/gigi.jpg';
+                                        born.innerHTML = "September 30, 1986";
+                                        position.innerHTML = "Forward";
+                                        country.innerHTML = "France";
+                                        previous.innerHTML = "Montpellier";
+                                    }
+                                    function changePic10(welbz) {
+                                        pic.src = 'images/welbz.jpg';
+                                        born.innerHTML = "November 26, 1990";
+                                        position.innerHTML = "Forward";
+                                        country.innerHTML = "England";
+                                        previous.innerHTML = "Manchester United";
+                                    }
+                                    
+                                    function changePic11(sancho) {
+                                        pic.src = 'images/sancho.jpg';
+                                        born.innerHTML = "December 19, 1988";
+                                        position.innerHTML = "Forward";
+                                        country.innerHTML = "Chile";
+                                        previous.innerHTML = "Barcelona";
+                                    }
+                                    function changePic12(santi) {
+                                        pic.src = 'images/santi.jpg';
+                                        born.innerHTML = "December 13, 1984";
+                                        position.innerHTML = "Midfielder";
+                                        country.innerHTML = "Spain";
+                                        previous.innerHTML = "Malaga";
+                                    }
+                                    function changePic13(oz) {
+                                        pic.src = 'images/oz.jpg';
+                                        born.innerHTML = "October 15, 1988";
+                                        position.innerHTML = "Midfielder";
+                                        country.innerHTML = "Germany";
+                                        previous.innerHTML = "Real Madrid";
+                                    }
+                                    function changePic14(jacky) {
+                                        pic.src = 'images/jacky.jpg';
+                                        born.innerHTML = "January 01, 1992";
+                                        position.innerHTML = "Midfielder";
+                                        country.innerHTML = "England";
+                                        previous.innerHTML = "Bolton";
+                                    }
+                                    function changePic15(rambo) {
+                                        pic.src = 'images/rambo.jpg';
+                                        born.innerHTML = "December 26, 1990";
+                                        position.innerHTML = "Midfielder";
+                                        country.innerHTML = "Wales";
+                                        previous.innerHTML = "Cardiff City";
+                                    }
+                                    function changePic16(poldi) {
+                                        pic.src = 'images/poldi.jpg'
+                                        born.innerHTML = "June 04, 1985";
+                                        position.innerHTML = "Forward";
+                                        country.innerHTML = "Germany";
+                                        previous.innerHTML = "Cologne";
+                                    }
+                                    function changePic17(diaby) {
+                                        pic.src = 'images/diaby.jpg';
+                                        born.innerHTML = "May 11, 1986";
+                                        position.innerHTML = "Midfielder";
+                                        country.innerHTML = "France";
+                                        previous.innerHTML = "Auxerre";
+                                    }
+                                    function changePic18(debuchy) {
+                                        pic.src = 'images/debuchy.jpg';
+                                        born.innerHTML = "July 28 1985";
+                                        position.innerHTML = "Defender";
+                                        country.innerHTML = "France";
+                                        previous.innerHTML = "Newcastle United";
+                                    }
+                                    function changePic19(sanogo) {
+                                        pic.src = 'images/sanogo.jpg';
+                                        born.innerHTML = "January 27, 1993";
+                                        position.innerHTML = "Forward";
+                                        country.innerHTML = "France";
+                                        previous.innerHTML = "Auxerre";
+                                    }
+                                    function changePic20(rosicky) {
+                                        pic.src = 'images/rosicky.jpg';
+                                        born.innerHTML = "October 04, 1980";
+                                        position.innerHTML = "Midfielder";
+                                        country.innerHTML = "Czech Republic";
+                                        previous.innerHTML = "Dortmund";
+                                    }
+                                    
+                                    
+                                 </script>
+
+
+</body>
+</html>
